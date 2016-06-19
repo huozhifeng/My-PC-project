@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    color: #424242;
+}
+input{
+    display: block;
+    outline: none;
+}
+a,a:hover,a:target,a:visited,a:active{
+    display: block;
+    text-decoration: none;
+}
+.w{
+    width: 990px;
+    margin: 0 auto;
+}
+.w .header{
+    width: 300px;
+    margin: 10px 0 0;
+    overflow: hidden;
+}
+.w .header a{
+    display: block;
+    width: 170px;
+    height: 60px;
+    float: left;
+}
+.w .header a img{
+    width: 100%;
+    height: 100%;
+
+}
+.w .header .img1{
+    width: 110px;
+    height: 40px;
+    margin: 10px 0;
+}
+.content-login{
+    background:#3F0752 ;
+}
+.content-login .w{
+    height: 475px;
+    background: url("../img/5763597cNa5b01a7a.jpg");
+    z-index: 5;
+}
+.content-login .w .content-r{
+    float: right;
+    width: 306px;
+    position: relative;
+    z-index: 4;
+    background: #fff;
+    padding: 20px;
+    overflow: visible;
+    height: 306px;
+    top: 40px;
+}
+.content-login .w .content-r .mt{
+    width: 100%;
+    height: 27px;
+    position: relative;
+}
+.content-login .w .content-r .mt h1{
+    position: relative;
+    height: 27px;
+    line-height: 27px;
+    top: -5px;
+    float: left;
+    color: rgb(102, 102, 102);
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+    font-size: 20px;
+    padding: 3px 0;
+}
+
+.content-login .w .content-r .mt a{
+    float: right;
+    color: #B1191A;
+    height: 100%;
+    line-height: 27px;
+}
+.content-login .w .content-r .mt em{
+    position: absolute;
+    right: 61px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url("../img/pwd-icons-new.png") -104px -75px no-repeat;
+    vertical-align: middle;
+    margin-right: 5px
+}
+.content-login .w .content-r .mc{
+   height: 31px;
+    line-height: 31px;
+    margin: 2px 0 5px;
+}
+.content-login .w .content-r .mc .mc-t{
+    position: relative;
+    background: #fff6d2;
+    color: #666;
+    border: 1px solid #ffe57d;
+    padding: 3px 10px 3px 40px;
+    line-height: 18px;
+    height: 18px;
+    font-size: 14px;
+}
+.content-login .w .content-r .mc .mc-t em{
+    display: block;
+    position: absolute;
+    left: 17px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background: url("../img/pwd-icons-new.png") no-repeat -104px -22px;
+}
+.content-login .w .content-r .md{
+    position: relative;
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    z-index: 6;
+    margin-bottom: 20px;
+}
+.content-login .w .content-r .md label{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+    background:url("../img/pwd-icons-new.png") 0 0 no-repeat;
+}
+.content-login .w .content-r .md .loginname{
+    line-height: 18px;
+    height: 18px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+}
+.content-login .w .content-r .mp{
+    position: relative;
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    z-index: 6;
+   margin-bottom: 20px;
+}
+.content-login .w .content-r .mp label{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+    background:url("../img/pwd-icons-new.png") 0 0 no-repeat;
+}
+.content-login .w .content-r .mp .password{
+    line-height: 18px;
+    height: 18px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+}
+.content-login .w .content-r .mb{
+    width: 100%;
+    height: 18px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.content-login .w .content-r .mb .safe{
+    overflow: hidden;
+}
+.content-login .w .content-r .mb .safe span{
+    float: left;
+    font-size: 14px;
+    margin-right: 15px;
+
+}
+.content-login .w .content-r .mb .safe span input{
+    float: left;
+    margin-left: 5px;
+}
+.content-login .w .content-r .mb .safe span.password-safe{
+    float: right;
+}
+.content-login .w .content-r .mf{
+    width: 100%;
+    border: 1px solid  #e85356;
+    background: #e85356;
+    height: 40px;
+}
+.content-login .w .content-r .mf a{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+.content-login .w .content-desc{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 44px;
+    width: 100%;
+}
+.content-login .w .content-desc h5{
+    font-weight: 400;
+    color: #999;
+    font-size: 12px;
+    padding-left: 40px;
+}
+.content-login .w .content-desc ul{
+    list-style: none;
+    font-size: 13px;
+    height: 30px;
+    padding-left: 40px;
+}
+.content-login .w .content-desc ul li{
+    height: 25px;
+    line-height: 25px;
+    width: 72px;
+    text-align: center;
+    float: left;
+    font-family: '\5b8b\4f53'
+}
+.content-login .w .content-desc ul li b{
+    color: #cccccc;
+}
+.content .logo-wrap .foot-t{
+    width: 100%;
+    margin-top: 20px;
+}
+.content{
+    width: 990px;
+    margin: 0 auto;
+    height: 20px;
+}
+.content .logo-wrap .foot-t a{
+    font-size: 12px;
+    float: right;
+    color:#999 ;
+}
+.content .logo-wrap .foot-t b{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    text-align: center;
+    margin: 0 5px;
+    background: url("../img/q-icon.png") no-repeat;
+}
+.feet .w ul{
+    list-style: none;
+    overflow: hidden;
+
+}
+.feet .w ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+.feet .w ul li a{
+    font-size: 12px;
+    color: #666;
+    float: left;
+    margin-right: 10px;
+}
+.feet .w ul li a:hover{
+    color: #B1191A;
+}
+.feeter{
+    width: 990px;
+    height: 18px;
+    line-height: 18px;
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+.input_tips{
+    color: #B1191A;
+}

@@ -1,0 +1,985 @@
+.floor1 {
+    clear: both;
+    width: 100%;
+    height: 770px;
+    margin-bottom: 30px;
+}
+.floor1 .c{
+    width: 1210px;
+    margin: 0 auto;
+    _overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+/*标题头*/
+.floor1 .c .title0{
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #B1191A;
+}
+.floor1 .c .floorC{
+    width: 880px;
+    height: 676px;
+    float: right;
+    position: relative;
+}
+/*左侧模块*/
+.floor1 .c .floor2-l{
+    width: 330px;
+    height: 633px;
+   float: left;
+}
+.floor1 .c .floor2-l img{
+    height: 475px;
+    display: block;
+}
+.floor1 .c .title0 h3{
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+    width: 120px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+    background: url("../images/product_home_1.png")no-repeat;
+
+}
+/*右侧模块*/
+.floor1 .c .floorC .floorR{
+    border: solid 1px #ededed;
+    border-bottom: 0 none;
+    height: 34px;
+    line-height: 34px;
+    z-index: 1;
+    position: absolute;
+    right: 12px;
+    top: -39px;
+}
+.floor1 .c .floorC .floorR li{
+    float: left;
+    border-top: 3px solid transparent;
+    height: 34px;
+    border-left: solid 1px transparent;
+    border-right: solid 1px transparent;
+    _overflow: hidden;
+}
+.floor1 .c .floorC .floorR li.showR{
+    border-left: solid 1px #c81623;
+    border-right: solid 1px #c81623;
+    border-top:  3px solid  #c81623;
+    border-bottom: 1px solid #ffffff;
+}
+.floor1 .c .floorC .floorR li a{
+    float: left;
+    height: 34px;
+    padding: 0 16px;
+    text-decoration: none;
+    line-height: 34px;
+    _overflow: hidden;
+    background: #fff;
+
+    white-space: nowrap;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.floor1 .c .floorC .floorR li  i{
+    float: left;
+    color: #c7cccf;
+    padding: 10px 5px;
+}
+.floor1 .c .floorC  .itemR{
+    width: 100%;
+    height: 633px;
+}
+/*.floor1 .c .floorC .showR .htitle{
+    display: block;
+    border-left: solid 1px #c81623;
+    border-right: solid 1px #c81623;
+    border-top:  3px solid  #c81623;
+    height: 33px;
+    line-height: 30px;
+    color: #c81623;
+    text-indent: 1px;
+}*/
+.floor1 .c .floorC .itemR .itemr1{
+    width: 439px;
+    height: 633px;
+    overflow: hidden;
+    float: left;
+}
+.floor1 .c .floorC .itemR .itemr1 ul{
+    height: 100%;
+    width: 100%;
+}
+.floor1 .c .floorC .itemR .itemr1 ul li{
+    float: left;
+    width: 100%;
+    height: 157px;
+}
+.floor1 .c .floorC .itemR .itemr1 ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1{
+    width: 100%;
+    height: 315px;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer{
+    width: 439px;
+    height: 315px;
+    position: relative;
+}
+.floor1 .c .floorC .itemR .itemr1 ul .b1 .outer>a{
+    display: none;
+    position: absolute;
+    background: rgba(0,0,0,.2);
+    width: 25px;
+    height: 50px;
+     line-height: 50px;
+     text-align: center;
+     font-size: 18px;
+    top: 50%;
+    margin-top: -25px;
+    color: #ffffff;
+}
+
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer>a.leftBtn{
+    left: 0;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer>a.rightBtn{
+    right: 0;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer a.aa1{
+    display: block;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer>a .trandel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer>a>span.left0{
+    border-right-color: #ffffff;
+    left: -10%;
+}
+.floor1 .c .floorC .floorR li .itemR .itemr1 ul .b1 .outer>a>span.left{
+    border-right-color: rgba(0,0,0,.2);
+    left: 0;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer>a>span.right0{
+    border-left-color: #ffffff;
+    left: 50%;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer>a>span.right{
+    border-left-color: rgba(0,0,0,.2);
+    left:9px;
+
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer>ul{
+    height: 20px;
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer>ul>li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #666666;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: #666666;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer>ul>li.dd{
+    background: #b61b1f;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer .inner1{
+    width: 2195px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer .inner1 div{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer .inner1 a img{
+    width: 100%;
+    height: 100%;
+}
+.floor1 .c .floorC  .itemR .itemr1 ul .b1 .outer .inner2{
+    float: left;
+}
+.floor1 .c .floorC  .itemR .itemr1 .item-banner{
+    width:1356px;
+    height: 474px;
+}
+.floor1 .c .floorC  .itemR .itemr1 .item-banner li{
+    width: 339px;
+    height: 100%;
+}
+.floor1 .c .floorC  .itemR .itemr2{
+    float: left;
+    width: 440px;
+    height: 633px;
+}
+.c .end{
+    position: absolute;
+    left: 0;
+    bottom: 66px;
+}
+.floor1 .c .floorC  .itemR .itemr2  li{
+    _overflow: hidden;
+    _width: 219px;
+    height: 176px;
+}
+.floor1 .c  .floorC  .itemR .itemr2  li a{
+    width: 219px;
+    _height: 176px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+   /* border-bottom: 1px solid #c7cccf;
+    border-right: 1px solid #c7cccf;*/
+
+}
+.floor1 .c  .floorC  .itemR .itemr2  li a.own{
+    position: absolute;
+    right: 222px;
+    bottom: -9px;
+}
+.floor1 .c .floorC  .itemR .itemr2 .itemr21 .like2{
+    width:219px ;
+    height: 296px;
+}
+.floor1 .c .floorC  .itemR .itemr2 .itemr21 .like2 a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.floor1 .c .floorC  .itemR .itemr2 ul{
+    height: 100%;
+    width: 100%;
+}
+img{
+    border: 0;
+}
+.floor1 .c .floorC .itemR .itemr2 .itemr22{
+    float: left;
+    width: 219px;
+    height: 100%;
+
+}
+.floor1 .c .floorC  .itemR .itemr2 .itemr22 .like3{
+    width: 219px;
+    height: 296px;
+}
+.floor1 .c .floorC  .itemR .itemr2 .itemr22 .like3 a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.floor1 .c .floorC  .itemR .itemr2 .itemr22 a{
+    width: 219px;
+    height: 176px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #c7cccf;
+    border-top: none;
+}
+.floor1  .c .floorC  .itemR .itemr1 .item-banner li a {
+    height: 176px;
+    width: 339px;
+    float: left;
+    border: none;
+    padding: 0;
+    border-bottom: 1px solid #c7cccf;
+}
+.floor1  .c .floorC  .itemR .itemr1 .item-banner li a.like {
+    height: 296px;
+    width: 339px;
+    float: left;
+    border: none;
+    padding: 0;
+    border-bottom: 1px dashed #c7cccf;
+}
+.floor1 .c .floorC  .showR {
+    display: block;
+}
+/*.floor1 .c .floorC  .showR .htitle{
+    border-left: solid 1px #c81623;
+    border-right: solid 1px #c81623;
+    border-top:  3px solid  #c81623;
+    height: 33px;
+    line-height: 30px;
+    color: #c81623;
+    text-indent: 1px;
+}*/
+.floor1 .c h3 span{
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.floor1 .c .floor2-1{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 92px;
+
+    margin-top: -234px;
+    _overflow: hidden;
+    background: rgba(255,255,255,.5);
+}
+.floor1 .c .floor2-1 .floor2-2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    padding-left: 15px;
+}
+.floor1 .c .floor2-2 li{
+    float: left;
+    height: 30px;
+    width: 98px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.floor1 .c .floor2-2 li a{
+    float: left;
+    height: 26px;
+    font-size: 14px;
+    text-align: center;
+    line-height:26px;
+    background: url("../img/cosmeticsicon.png") no-repeat 0 0;
+}
+.floor1 .c .floor2-2 li a span{
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.floor1 .c .floor2-2 li a .icon{
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    width: 26px;
+}
+.floor2-30 {
+    position: absolute;
+    height: 129px;
+    font-size: 14px;
+    width: 100%;
+    left: 0;
+    top: 91px;
+   background: rgba(255,255,255,.7);
+;
+}
+.floor2-30 li{
+    float: left;
+    width: 135px;
+    height: 48px;
+    padding: 7px 0 0 25px;
+    _overflow: hidden;
+
+}
+.floor2-30 li a{
+    float: left;
+    margin-right: 10px;
+    line-height: 24px;
+    white-space: nowrap;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.floor2-30 li a span{
+    color: #B1191A;
+}
+.floor1 .floor2-l  .end{
+    display: block;
+    width: 328px;
+    height: 157px;
+    bottom: 14px;
+    left: 0;
+    position: absolute;
+    border-right: 1px solid #c7cccf;
+    border-bottom: 1px solid #c7cccf;
+}
+.floor1 .floor2-l .end img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.floor2-4{
+    width: 100%;
+    background: rgba(255,255,255,.7);
+    position: absolute;
+    top: 169px;
+    left: 0;
+    padding-bottom: 18px;
+}
+.floor2-4 li {
+    font-size: 12px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+    _height: 30px;
+    float: left;
+    padding: 7px 0 0 25px;
+
+}
+.floor2-4 li a{
+    float: left;
+    margin-right: 20px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+    height: 20px;
+    line-height:20px ;
+
+}
+/*隐藏的第二个div*/
+.floor1 .c  .floorC .itemR .bom{
+    width: 100%;
+    height: 100%;
+}
+.floor1 .c .floorC .itemR .bom li{
+    float: left;
+    width: 141px;
+    height: 240px;
+    padding: 68px 17px 0;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.floor1 .c .floorC .itemR .bom li div{
+    float: left;
+    width: 100%;
+}
+.floor1 .c .floorC .itemR .bom .bom2{
+    height: 3em;
+    margin-bottom: 3px;
+}
+
+.floor1 .c .floorC .itemR .bom .bom3 span{
+    color: #B1191A;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.floor1 .c .floorC .itemR .bom a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 17px;
+}
+.floor1 .c .floorC.itemR .bom img{
+    width: 130px;
+    height: 130px;
+    display: block;
+}
+/*结尾div*/
+.floor1 .c .floorfoot{
+    background: #f7f7f7;
+    padding: 13px 0 13px 11px;
+    margin-top: 10px;
+    overflow:hidden;
+}
+.floor1 .c  .floorfoot{
+    padding-left: 0;
+}
+.floor1  .c .floorfoot ul{
+    overflow: hidden;
+}
+.floor1 .c  .floorfoot li{
+    float: left;
+    border-left: 1px dotted #ccc;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+}
+.floor1 .c  .floorfoot li img{
+    width: 100px;
+    height: 100%;
+}
+/*二楼部分*/
+.floor2 {
+    clear: both;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.floor2 .c{
+    width: 1210px;
+    margin: 0 auto;
+    _overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+/*标题头*/
+.floor2 .c .title{
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #B1191A;
+}
+.floor2 .c .floorC{
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    float: right;
+}
+/*左侧模块*/
+.floor2 .c  .floor2-l{
+    width: 210px;
+    height: 475px;
+    float: left;
+}
+.floor2 .c .floor2-l img{
+    height: 475px;
+    display: block;
+}
+.floor2 .c .title h3{
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+    width: 120px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+    background: url("../images/product_home_1.png")no-repeat;
+
+}
+/*右侧模块*/
+.floor2 .c .floorC .floorR{
+    border: solid 1px #ededed;
+    border-bottom: 0 none;
+    height: 34px;
+    line-height: 34px;
+    z-index: 1;
+    position: absolute;
+    right: 12px;
+    top: -39px;
+}
+.floor2 .c .floorC .floorR li{
+     float: left;
+     border-top: 3px solid transparent;
+     height: 34px;
+     border-left: solid 1px transparent;
+     border-right: solid 1px transparent;
+     _overflow: hidden;
+}
+.floor2 .c .floorC .floorR li.showR{
+    border-left: solid 1px #c81623;
+    border-right: solid 1px #c81623;
+    border-top:  3px solid  #c81623;
+    border-bottom: 1px solid #ffffff;
+}
+.floor2 .c .floorC .floorR li .htitle{
+    float: left;
+    height: 34px;
+    padding: 0 16px;
+    text-decoration: none;
+    line-height: 34px;
+    _overflow: hidden;
+    background: #fff;
+
+    white-space: nowrap;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.floor2 .c .floorC .floorR i{
+    float: left;
+    color: #c7cccf;
+    padding: 10px 5px;
+}
+.c .floorC .itemR{
+    width: 1000px;
+    height: 473px;
+    position: relative;
+    display:none;
+    float: right;
+
+}
+.floor2 .c .floorC  .htitle1{
+    display: block;
+    height: 33px;
+    line-height: 30px;
+    color: #c81623;
+    text-indent: 1px;
+}
+.c .floorC  .itemR .itemr1{
+    width: 339px;
+    height: 474px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.c .floorC  .itemR .itemr1 .item-banner{
+    width:1695px;
+    height: 474px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.c .floorC .itemR .itemr1 .item-banner li{
+    width: 339px;
+    height: 100%;
+    float: left;
+}
+.c .floorC .itemR .itemr2{
+    float: left;
+    width: 657px;
+    height: 100%;
+}
+.c .floorC .itemR .itemr2 .itemr21{
+    width: 438px;
+    height: 100%;
+    float: left;
+}
+.floor2 .c .floorC .itemR .itemr2 .itemr21 li{
+   _overflow: hidden;
+    width: 219px;
+    height: 176px;
+    float: left;
+}
+.floor2 .c .floorC  .itemR .itemr2 .itemr21 li a{
+    width: 219px;
+    height: 176px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border:1px solid #c7cccf;
+    border-top: none;
+
+}
+.floor2 .c .floorC .itemR .itemr2 .itemr21 .like2{
+    width:219px ;
+    height: 296px;
+}
+.floor2 .c .floorC  .itemR .itemr2 .itemr21 .like2 a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #c7cccf;
+    border-top: none;
+}
+.c .floorC  .itemR .itemr2 ul{
+    height: 100%;
+    width: 100%;
+}
+img{
+    border: 0;
+}
+.floor2 .c .floorC .itemR .itemr2 .itemr22{
+    float: left;
+    width: 219px;
+    height: 100%;
+
+}
+.floor2 .c .floorC  .itemR .itemr2 .itemr22 .like3{
+    width: 219px;
+    height: 296px;
+}
+.floor2 .c .floorC  .itemR .itemr2 .itemr22 .like3 a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.floor2 .c .floorC  .itemR .itemr2 .itemr22 a{
+    width: 219px;
+    height: 176px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #c7cccf;
+    border-top: none;
+}
+.floor2  .c .floorC .itemR .itemr1 .item-banner li a {
+    height: 176px;
+    width: 339px;
+    float: left;
+    border: none;
+    padding: 0;
+    border-bottom: 1px solid #c7cccf;
+}
+.floor2  .c .floorC .itemR .itemr1 .item-banner li a.like {
+    height: 296px;
+    width: 339px;
+    float: left;
+    border: none;
+    padding: 0;
+    border-bottom: 1px dashed #c7cccf;
+}
+.floor2 .c .floorC  div.showR {
+     display: block;
+}
+.floor2 .c h3 span{
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+   margin-right: 10px;
+}
+.floor2 .c .floor2-1{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 92px;
+    padding-left: 10px;
+    margin-top: -234px;
+
+    _overflow: hidden;
+}
+.floor2 .c .floor2-2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    background:#e5ebeb ;
+}
+.floor2 .c .floor2-2 li{
+    float: left;
+    height: 30px;
+    width: 98px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.floor2 .c .floor2-2 li a{
+    float: left;
+    height: 26px;
+    font-size: 14px;
+    text-align: center;
+    line-height:26px;
+    background: url("../img/cosmeticsicon.png") no-repeat 0 0;
+}
+.floor2 .c .floor2-2 li a span{
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.floor2 .c .floor2-2 li a .icon{
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    width: 26px;
+ }
+.floor2-3 {
+    position: absolute;
+    height: 48px;
+    padding: 21px 0 0;
+    font-size: 14px;
+    line-height: 24px;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    background: rgba(255,255,255,.7);
+}
+.floor2-3 .fore2{
+    width: 180px;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    float: left;
+    padding: 0 0 0 25px;
+}
+.floor2-3 .fore3{
+    width: 180px;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    float: left;
+    padding: 0 0 10px 25px;
+
+}
+.floor2-3 li a{
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.floor2-4{
+    width: 100%;
+    background: rgba(255,255,255,.7);
+    position: absolute;
+    top: 169px;
+    left: 0;
+    padding-bottom: 18px;
+}
+.floor2-4 li {
+    font-size: 12px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+    _height: 30px;
+    float: left;
+    padding: 7px 0 0 25px;
+
+}
+.floor2-4 li a{
+    float: left;
+    margin-right: 20px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+    height: 20px;
+    line-height:20px ;
+
+}
+/*隐藏的第二个div*/
+.c  .floorC  .itemR .bom{
+    width: 100%;
+    height: 100%;
+}
+.c .floorC  .itemR  .bom  li{
+    float: left;
+    width: 165px;
+    height: 230px;
+    padding: 6px 17px 0;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.c  .floorC  .itemR .bom li div{
+    float: left;
+    width: 100%;
+}
+.floor2 .c  .floorC  .itemR .bom .bom2{
+    height: 3em;
+    margin-bottom: 3px;
+}
+
+.floor2 .c  .floorC  .itemR .bom .bom3 span{
+    color: #B1191A;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.floor2 .c .floorC  .itemR .bom a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 17px;
+}
+.c  .floorC  .itemR .bom img{
+    width: 130px;
+    height: 130px;
+    display: block;
+}
+/*结尾div*/
+.c  .floorfoot{
+    background: #f7f7f7;
+    padding: 13px 0 13px 11px;
+    margin-top: 10px;
+    overflow:hidden;
+    clear: both;
+}
+.floor2 .c  .floorfoot{
+    padding-left: 0;
+    overflow: hidden;
+}
+.floor2 .c  .floorfoot li{
+    float: left;
+    border-left: 1px dotted #ccc;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+}
+.floor2 .c  .floorfoot li img{
+    width: 100px;
+    height: 100%;
+}
+.floor2-4 li a span{
+    color: #C81623;
+}
+.floor2-r{
+    clear: both;
+}
+.floor2 .c .floorC .itemR .itemr1>a{
+    display: none;
+    position: absolute;
+    background: rgba(0,0,0,.2);
+    width: 29px;
+    height: 56px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 26px;
+    top: 50%;
+    margin-top: -26px;
+    color: #ffffff;
+}
+
+.floor2 .c .floorC .itemR .itemr1>a.leftBtn{
+    left: 0;
+}
+.floor2 .c .floorC .itemR .itemr1>a.rightBtn{
+    right: 0;
+}
+.floor2 .c .floorC .itemR .itemr1 .slider-tip {
+    height: 20px;
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+}
+
+.floor2 .c .floorC .itemR .itemr1 .slider-tip li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #666666;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: #666666;
+    float: left;
+    cursor: pointer;
+}
+.floor2 .c .floorC .itemR .itemr1 .slider-tip li.dd{
+    background: #b61b1f;
+}
+/*.floor2 .c .floorC .itemR .itemr1>a.aa1{
+    display: block;
+}*/
+/*.floor2 .c .floorC .itemR .itemr1>a.trandel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+
+}*/
+/*
+.floor2 .c .floorC .itemR .itemr1 .item-banner{
+    height: 20px;
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+}
+.floor2 .c .floorC .itemR .itemr1 .item-banner>li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #666666;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: #666666;
+}
+.floor2 .c .floorC .itemR .itemr1 .item-banner>li.dd{
+    background: #b61b1f;
+}*/

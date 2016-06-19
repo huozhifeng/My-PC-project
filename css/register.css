@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a,a:target,a:visited,a:hover,a:active{
+    display: block;
+    text-decoration: none;
+}
+input{
+    display: block;
+    outline: 0;
+    border-width: 0;
+}
+img{
+    display: block;
+    border: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #424242;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+}
+.header{
+    width: 100%;
+    min-width: 1210px;
+    height: 110px;
+    background: url("../img/headbg.jpg") repeat-x left bottom;
+    margin-bottom: 30px;
+}
+.header .w{
+    width: 1210px;
+    margin: 0 auto;
+}
+.header .w img{
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin-top: 24px;
+}
+.header .w .logo{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 18px;
+    color: #000;
+    border-left: solid 1px #bbb;
+    margin-left: 25px;
+    padding-left: 25px;
+    margin-top: 34px;
+    letter-spacing: 5px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.header .w .logo-r{
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", sans-serif;
+}
+.header .w .logo-r a{
+    float: right;
+    color: #333;
+    margin-left: 10px;
+}
+.root .w{
+    width: 1210px;
+    margin: 0 auto;
+}
+.root .w .formList{
+    width: 100%;
+    height: 605px;
+}
+.root .w .formList .main{
+    margin: 50px auto 60px;
+    width: 830px;
+    overflow: hidden;
+}
+.w .formList .main .main-l{
+    width: 400px;
+    float: left;
+}
+.w .formList .main .tab{
+    overflow: hidden;
+    position: relative;
+    border:  1px solid #ddd;
+    width: 398px;
+    height: 52px;
+    margin-bottom: 20px;
+}
+.w .formList .main .tab label{
+    float: left;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+}
+.w .formList .main .tab input{
+    position: absolute;
+    z-index: 2;
+    line-height: 46px;
+    margin-left: 20px;
+    margin-top: 1px;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei', 'Hiragino Sans GB';
+    color: rgb(204, 204, 204);
+    display: inline;
+}
+
+.w .formList .main .tab a{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-position: -2px -151px;
+    background-image: url("../img/icon.png") ;
+}
+.w .formList .main .tab img {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 110px;
+    height: 46px;
+    cursor: pointer;
+}
+.w .formList .main .tab button{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 110px;
+    height: 46px;
+    border: none;
+    background: #f2f2f2;
+    color: #333;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+.w .formList .main .email{
+    float: right;
+    width: 70px;
+}
+.w .formList .main .email a{
+    float: right;
+}
+.w .formList .main .form-b{
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+}
+.w .formList .main .form-b input{
+    width: 18px;
+    height: 18px;
+    border: solid 1px #cfd1d3;
+    vertical-align: text-top;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+   float: left;
+}
+.w .formList .main .form-b a{
+    color: #38f;
+    float: right;
+    margin-right: 133px;
+
+}
+.w .formList .main .regBtn{
+    margin-top: 20px;
+    width: 100%;
+    height: 54px;
+    color: #fff;
+    background: #e22;
+    line-height: 54px;
+    text-align: center;
+    border: 0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+.w .other{
+    float: left;
+    margin-left: 104px;
+    height: 605px;
+    padding-left: 90px;
+    border-left: solid 1px #e6e6e6;
+
+}
+.w .other .phone{
+    width: 213px;
+    height: 270px;
+    background: url("../img/phone.jpg")no-repeat;
+}
+.w .other .company{
+    width: 160px;
+    height: 60px;
+    margin-top: 50px;
+    border-bottom: solid 1px #ddd;
+    margin-left: 30px;
+}
+.w .other .company a{
+    display: block;
+    width: 160px;
+    height: 30px;
+    color: #666666;
+}
+.w .other .company a:hover{
+    color: #000;
+    font-weight: 700;
+}
+.w .other .company i{
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    vertical-align: middle;
+    margin-right: 15px;
+    background-position: 0 -50px;
+    background-image: url("../img/icon.png");
+}
+.w .other .cust{
+    width: 160px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.w .other .cust a{
+    display: block;
+    width: 180px;
+    height: 41px;
+    color: #666666;
+}
+.w .other .cust a:hover{
+    color: #000;
+    font-weight: 700;
+}
+.w .other .cust a i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+    margin-right: 15px;
+    float: left;
+    margin-top: 7px;
+    background-image: url("../img/icon.png");
+    background-position: -50px -50px ;
+}
+.feet .w{
+    width: 990px;
+    margin: 0 auto;
+}
+.feet .w ul{
+    list-style: none;
+    overflow: hidden;
+
+}
+.feet .w ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+.feet .w ul li a{
+    font-size: 12px;
+    color: #666;
+    float: left;
+    margin-right: 20px;
+}
+.feet .w ul li a:hover{
+    color: #B1191A;
+}
+.feeter{
+    width: 990px;
+    height: 18px;
+    line-height: 18px;
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}

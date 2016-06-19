@@ -1,0 +1,157 @@
+a {
+    color: #666;
+    text-decoration: none;
+}
+.focus-inner{
+    position: relative;
+}
+.focus-inner .innerCenter{
+    width: 999px;
+    height: 465px;
+    _background: #ffffff;
+    z-index:10;
+    position: absolute;
+    left: 210px;
+    top: -1px;
+    border: 1px solid #B61D1D;
+    display: none;
+    background: black;
+    border-left: none;
+}
+ .dt{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.focus-inner .dt .item1{
+    overflow: hidden;
+    width: 996px;
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: -3px; */
+    display: block;
+    background: #F9F9F9;
+}
+.focus-inner .dt .item-r{
+    position: absolute;
+    right: -7px;
+    top: 8px;
+    width: 168px;
+    margin: 19px 20px 10px 0;
+    overflow: hidden;
+}
+.focus-inner .dt .item-r a{
+    float: left;
+    display: block;
+    width: 83px;
+    height: 35px;
+    overflow: hidden;
+}
+.focus-inner .dt .item-r  img{
+    display: block;
+    width: 83px;
+    height: 35px;
+    float: left;
+    margin: 1px 0 0 1px ;
+}
+.focus-inner .dt .item-l{
+    height: 431px;
+}
+/*.focus-inner .dt .item-l .item-l1{
+    margin: 20px 20px 0 25px;
+}*/
+.focus-inner .dt .item-l .item-l1 a:hover i{
+    background: #B61D1D;
+}
+/*.item-l .item-l1 a{
+    float: left;
+    display: inline-block;
+    padding: 0 0 0 8px;
+    margin-left: 10px;
+    line-height: 24px;
+    background: #7C7171;
+    color: #fff;
+    white-space: nowrap;
+    cursor: auto;
+}*/
+.focus-inner .dt .item-l .item-l1 a:hover{
+    background: #B61D1D;
+}
+.focus-inner .dt .item-l  i{
+    padding: 4px 10px 4px 8px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #333333;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.focus-inner .dt .item-2{
+    width: 790px;
+    overflow: hidden;
+    _background: lightblue;
+    float: left;
+}
+.focus-inner .dt .item-2 .item-left{
+    width: 100%;
+    line-height: 2em;
+    overflow: hidden;
+    margin: 15px auto;
+
+}
+
+.focus-inner .dt .item-2 .item-left dt {
+    position: relative;
+    float: left;
+    width: 60px;
+    padding: 8px 30px 0 0;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.focus-inner .dt .item-2 .item-left dt i{
+    position: absolute;
+    float: left;
+    top:-1px;
+    left: 46px;
+    width: 4px;
+    height:14px;
+    background: white;
+    color: #333;
+}
+.focus-inner .dt .item-l .item-2 .item-left dd{
+    overflow: hidden;
+}
+.focus-inner .dt .item-l .item-2 .item-left dd a{
+    float: left;
+    padding: 0 8px;
+    margin: 4px 0;
+    line-height: 16px;
+    height: 16px;
+    border-left: 1px solid #e0e0e0;
+    white-space: nowrap;
+    color: #7C7171;
+    font-size: 13px;
+}
+.focus-inner .dt .item-2 .item-left a:hover{
+    color: #B61D1D;
+}
+.focus-inner .dt .item-2 .item-left dd a:hover {
+    color: #B61D1D;
+}
+.focus-inner .dt .item-right{
+    position: absolute;
+    width: 168px;
+    margin-right: 20px;
+    right: -8px;
+    bottom: 18px;
+}
+#focus .focus-inner .selected{
+    display: block;
+    background: #ffffff;
+}
+#focus .focus-inner .selected h3 a/*a,.focus-inner .selected-l i*/{
+    color: #B1191A;
+}
